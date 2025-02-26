@@ -1,7 +1,7 @@
-package dio.api_rest.domain.repository;
+package dio.api_rest.repository;
 
 
-import dio.api_rest.domain.model.User;
+import dio.api_rest.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

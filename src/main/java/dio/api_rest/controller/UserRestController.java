@@ -1,6 +1,6 @@
 package dio.api_rest.controller;
 
-import dio.api_rest.domain.model.User;
+import dio.api_rest.model.User;
 import dio.api_rest.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
