@@ -1,0 +1,25 @@
+package apirest.dio.Api.projeto.da.dio.domain.model;
+
+import jakarta.persistence.*;
+import lombok.Data;
+
+import java.math.BigDecimal;
+
+@Data
+@Entity(name = "tb_account")
+public class Account {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column (unique = true)
+    private String number;
+
+    private String agency;
+
+    @Column(name = "additional_limit")
+    private BigDecimal additionalLimit;
+
+    @Column(name = "account_limit")
+    private BigDecimal accountLimit;
+}
