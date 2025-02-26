@@ -1,8 +1,8 @@
 package dio.api_rest.service.impl;
 
-import dio.api_rest.domain.model.User;
-import dio.api_rest.domain.repository.NewsRepository;
-import dio.api_rest.domain.repository.UserRepository;
+import dio.api_rest.model.User;
+import dio.api_rest.repository.NewsRepository;
+import dio.api_rest.repository.UserRepository;
 import dio.api_rest.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

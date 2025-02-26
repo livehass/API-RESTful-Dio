@@ -1,4 +1,4 @@
-package dio.api_rest.domain.model;
+package dio.api_rest.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

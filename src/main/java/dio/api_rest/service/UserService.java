@@ -2,7 +2,7 @@ package dio.api_rest.service;
 
 
 
-import dio.api_rest.domain.model.User;
+import dio.api_rest.model.User;
 
 import java.util.List;
 
