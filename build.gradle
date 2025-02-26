@@ -37,6 +37,15 @@ dependencies {
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 
 }
+tasks.jar {
+	manifest {
+		attributes(
+				'Main-Class': 'apirest.dio.ApirestDioApplication',
+				'Implementation-Title': 'apirest-dio',
+				'Implementation-Version': version
+		)
+	}
+}
 
 tasks.named('test') {
 	useJUnitPlatform()
