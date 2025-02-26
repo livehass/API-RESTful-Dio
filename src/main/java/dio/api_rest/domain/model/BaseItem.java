@@ -1,4 +1,4 @@
-package apirest.dio.Api.projeto.da.dio.domain.model;
+package dio.api_rest.domain.model;
 
 
 import jakarta.persistence.*;

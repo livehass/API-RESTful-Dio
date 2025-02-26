@@ -1,6 +1,8 @@
-package apirest.dio.Api.projeto.da.dio.service;
+package dio.api_rest.service;
 
-import apirest.dio.Api.projeto.da.dio.domain.model.User;
+
+
+import dio.api_rest.domain.model.User;
 
 import java.util.List;
 

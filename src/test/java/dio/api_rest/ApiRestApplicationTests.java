@@ -1,10 +1,10 @@
-package apirest.dio.Api.projeto.da.dio;
+package dio.api_rest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiProjetoDaDioApplicationTests {
+class ApiRestApplicationTests {
 
 	@Test
 	void contextLoads() {

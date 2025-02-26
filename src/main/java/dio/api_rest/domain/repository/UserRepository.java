@@ -1,6 +1,7 @@
-package apirest.dio.Api.projeto.da.dio.domain.repository;
+package dio.api_rest.domain.repository;
 
-import apirest.dio.Api.projeto.da.dio.domain.model.User;
+
+import dio.api_rest.domain.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
