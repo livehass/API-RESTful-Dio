@@ -12,7 +12,7 @@ public class Card {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "available_card_limit", scale = 13, precision = 2)
+    @Column(name = "available_card_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
     @Column(unique = true)
