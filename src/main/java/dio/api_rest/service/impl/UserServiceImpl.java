@@ -1,10 +1,9 @@
-package apirest.dio.Api.projeto.da.dio.service.impl;
+package dio.api_rest.service.impl;
 
-import apirest.dio.Api.projeto.da.dio.domain.model.News;
-import apirest.dio.Api.projeto.da.dio.domain.model.User;
-import apirest.dio.Api.projeto.da.dio.domain.repository.NewsRepository;
-import apirest.dio.Api.projeto.da.dio.domain.repository.UserRepository;
-import apirest.dio.Api.projeto.da.dio.service.UserService;
+import dio.api_rest.domain.model.User;
+import dio.api_rest.domain.repository.NewsRepository;
+import dio.api_rest.domain.repository.UserRepository;
+import dio.api_rest.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

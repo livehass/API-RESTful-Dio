@@ -1,4 +1,4 @@
-package apirest.dio.Api.projeto.da.dio;
+package dio.api_rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

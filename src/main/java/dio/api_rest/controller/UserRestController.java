@@ -1,7 +1,7 @@
-package apirest.dio.Api.projeto.da.dio.controller;
+package dio.api_rest.controller;
 
-import apirest.dio.Api.projeto.da.dio.domain.model.User;
-import apirest.dio.Api.projeto.da.dio.service.UserService;
+import dio.api_rest.domain.model.User;
+import dio.api_rest.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;

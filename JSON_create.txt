@@ -1,0 +1,28 @@
+{
+  "name": "Jorge",
+  "account": { 
+    "number": "9999999-0",
+    "agency": "muitss",
+    "balance": 5000.00,
+    "limit": 1000.00
+  },
+  "card": {
+    "number": "xxxx xxxx xxxx 1240",
+    "limit": 1240.00
+  },
+  "features": [
+    {
+      "icon": "pix",
+      "description": "Pix2"
+    }
+  ],
+  "news": [
+    {     
+      "icon": "propaganda",
+      "description": "propaganda 1"
+    }
+  ]
+}
+
+https://railway.com/
+
